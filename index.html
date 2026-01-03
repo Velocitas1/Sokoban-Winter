@@ -26,8 +26,29 @@
             </div>
             <div class="menu-options">
                 <button id="start-btn">START GAME</button>
+                <button id="level-select-btn">LEVEL SELECT</button>
                 <button id="settings-btn">SETTINGS</button>
                 <p class="controls-hint">Use Arrow Keys or WASD to Slide</p>
+            </div>
+        </div>
+
+        <!-- Level Select Menu -->
+        <div id="level-select" style="display: none;">
+            <h2>SELECT LEVEL</h2>
+            <div id="level-grid" class="level-grid">
+                <!-- Level buttons will be injected here -->
+            </div>
+            <button id="level-back-btn">BACK</button>
+        </div>
+
+        <!-- Pause Menu -->
+        <div id="pause-menu" style="display: none;">
+            <h2>PAUSED</h2>
+            <div class="menu-options">
+                <button id="resume-btn">RESUME</button>
+                <button id="pause-restart-btn">RESTART LEVEL</button>
+                <button id="pause-settings-btn">SETTINGS</button>
+                <button id="main-menu-btn">MAIN MENU</button>
             </div>
         </div>
 
@@ -60,8 +81,40 @@
             <h1 id="level-text" style="display: none;">Level Complete!</h1>
             <p id="instruction-text">Press R to Restart Level</p>
         </div>
+
+        <!-- Level Complete Menu -->
+        <div id="level-complete-menu" style="display: none;">
+            <h2>LEVEL COMPLETE</h2>
+            <div class="menu-options">
+                <button id="next-level-btn">NEXT LEVEL</button>
+                <button id="level-menu-btn">MAIN MENU</button>
+            </div>
+        </div>
+
+        <!-- Credits Screen -->
+        <div id="credits-screen" style="display: none;">
+            <div class="credits-content">
+                <h1>SOKOBAN WINTER</h1>
+                <p>A Game By You</p>
+                <br>
+                <h3>Programming</h3>
+                <p>Antigravity</p>
+                <p>User</p>
+                <br>
+                <h3>Design</h3>
+                <p>User</p>
+                <br>
+                <h3>Music</h3>
+                <p>"Piece by Piece"</p>
+                <br>
+                <h3>Special Thanks</h3>
+                <p>Everyone playing!</p>
+                <br><br><br>
+                <p>Press Any Key to Continue</p>
+            </div>
+        </div>
     </div>
-    <script src="script.js?v=107"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

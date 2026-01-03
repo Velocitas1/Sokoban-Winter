@@ -1,0 +1,16 @@
+{
+    "levels": [
+        {
+            "id": 1,
+            "filename": "Levels/level1.json",
+            "name": "The Beginning",
+            "thumbnail": "Levels/Thumbnails/level1.png"
+        },
+        {
+            "id": 2,
+            "filename": "Levels/level2.json",
+            "name": "The Sequel",
+            "thumbnail": "Levels/Thumbnails/level1.png"
+        }
+    ]
+}
